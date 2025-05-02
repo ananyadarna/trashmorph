@@ -18,8 +18,9 @@ Marketplace: Sell or discover upcycled crafts.
 bash
 Copy
 Edit
+
 TrashMorph/
-├── index.html           # Home page
+├── index.html           # Home page    
 ├── about.html           # About the project
 ├── community.html       # Community showcase
 ├── marketplace.html     # Craft marketplace
