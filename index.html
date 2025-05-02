@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>TrashMorph - Transform Waste into Treasures</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Search for creative ways to upcycle waste items into useful products." />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="pictures/favicon.jpg" type="image/x-icon">
+    <script type="module" src="script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>TrashMorph</h1>
+        <p class="tagline">Transform Waste into Treasures</p>
+      </div>
+      <nav>
+        <a href="/" aria-current="page">Home</a>
+        <a href="/marketplace.html">Marketplace</a>
+        <a href="/community.html">Community</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <h2>Give Your Waste a Second Life</h2>
+          <p>Search for any waste item and discover creative ways to transform it into something useful and beautiful.</p>
+        </div>
+      </section>
+
+      <section class="search-section">
+        <div class="search-container">
+          <div class="search-box">
+            <input type="text" id="waste-search" placeholder="Enter waste type (plastic, metal, glass) for DIY ideas!">
+            <button id="search-btn" class="btn primary-btn">Search</button>
+          </div>
+          <div class="popular-searches">
+            <p>Popular searches:</p>
+            <button class="tag-btn" data-item="plastic bottle">Plastic Bottle</button>
+            <button class="tag-btn" data-item="newspaper">Newspaper</button>
+            <button class="tag-btn" data-item="tin can">Tin Can</button>
+            <button class="tag-btn" data-item="cardboard box">Cardboard Box</button>
+          </div>
+        </div>
+      </section>
+
+      <section id="craft-ideas" class="craft-ideas hidden">
+        <h2>Upcycling Ideas</h2>
+        <div id="ideas-container" class="ideas-grid">
+          <!-- Results will be populated by JavaScript -->
+        </div>
+      </section>
+
+      <section class="featured-section">
+        <h2>Featured Upcycling Projects</h2>
+        <div class="featured-projects">
+          <div class="project-card">
+            <img src="pictures/bottle-planter.jpg" alt=" Bottle Planter">
+            <h3>Bottle Planter</h3>
+            <p>Glass bottles reborn as vibrant planters!</p>
+            <a href="#" class="btn secondary-btn">View Tutorial</a>
+          </div>
+          <div class="project-card">
+            <img src="pictures/organizer-tire.jpg" alt="organizer-tire">
+            <h3>Tire Organizer</h3>
+            <p>Create a stylish tire organizer made from old tires.</p>
+            <a href="#" class="btn secondary-btn">View Tutorial</a>
+          </div>
+          <div class="project-card">
+            <img src="pictures/A stylish upcycled bag made from repurposed cloth. The fabric is sewn together creatively, featuring patchwork or eco-friendly designs. The bag has st.webp" alt="stylish bag">
+            <h3>Stylish Bag</h3>
+            <p>Create a stylish upcycled bag made from repurposed cloth.</p>
+            <a href="#" class="btn secondary-btn">View Tutorial</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="how-it-works">
+        <h2>How It Works</h2>
+        <div class="steps">
+          <div class="step">
+            <div class="step-number">1</div>
+            <h3>Search</h3>
+            <p>Search for the waste item you want to upcycle.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">2</div>
+            <h3>Choose</h3>
+            <p>Browse through creative ideas and select your project.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">3</div>
+            <h3>Create</h3>
+            <p>Follow our step-by-step instructions to transform your waste into something useful.</p>
+          </div>
+          <div class="step">
+            <div class="step-number">4</div>
+            <h3>Share or Sell</h3>
+            <p>Share your creation with the community or sell it in our marketplace.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>TrashMorph</h3>
+          <p>Transforming waste into treasures, one item at a time.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/marketplace.html">Marketplace</a></li>
+            <li><a href="/community.html">Community</a></li>
+            <li><a href="/about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect With Us</h3>
+          <div class="social-links">
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 TrashMorph. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

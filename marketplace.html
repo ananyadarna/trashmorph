@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Marketplace - TrashMorph</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Buy and sell upcycled products made from recycled materials." />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="pictures/favicon.jpg" type="image/x-icon">
+    <script type="module" src="marketplace.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <h1>TrashMorph</h1>
+        <p class="tagline">Transform Waste into Treasures</p>
+      </div>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/marketplace.html" aria-current="page">Marketplace</a>
+        <a href="/community.html">Community</a>
+        <a href="/about.html">About</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="marketplace-hero">
+        <div class="hero-content">
+          <h2>Eco-Friendly Marketplace</h2>
+          <p>Buy and sell unique upcycled products made from recycled materials.</p>
+        </div>
+      </section>
+
+      <section class="marketplace-filters">
+        <div class="search-bar">
+          <input type="text" id="search-input" placeholder="Search for products...">
+          <button id="search-btn" class="btn primary-btn">Search</button>
+        </div>
+        <div class="filter-options">
+          <select id="category-filter">
+            <option value="">All Categories</option>
+            <option value="home-decor">Home Decor</option>
+            <option value="furniture">Furniture</option>
+            <option value="garden">Garden</option>
+            <option value="fashion">Fashion & Accessories</option>
+            <option value="art">Art & Crafts</option>
+          </select>
+          <select id="material-filter">
+            <option value="">All Materials</option>
+            <option value="plastic">Plastic</option>
+            <option value="glass">Glass</option>
+            <option value="rubber">Rubber</option>
+            <option value="paper">Paper & Cardboard</option>
+            <option value="fabric">Fabric & Textiles</option>
+            <option value="wood">Wood</option>
+          </select>
+          <select id="price-filter">
+            <option value="">All Prices</option>
+            <option value="under-10">Under ₹100</option>
+            <option value="10-25">₹100 - ₹250</option>
+            <option value="25-50">₹250 - ₹500</option>
+            <option value="50-100">₹500 - ₹1000</option>
+            <option value="over-100">Over ₹1000</option>
+          </select>
+        </div>
+      </section>
+
+      <section class="marketplace-products">
+        <h2>Featured Products</h2>
+        <div class="products-grid">
+          <div class="product-card">
+            <img src="pictures/coffee table- tire.jpg" alt="coffee table from a tire">
+            <div class="product-info">
+              <h3>Coffee Table</h3>
+              <p class="product-description">A unique coffee table made from an upcycled car tire.</p>
+              <p class="product-price">₹400.00</p>
+              <div class="product-meta">
+                <span class="product-category">Home Decor</span>
+                <span class="product-material">Rubber</span>
+              </div>
+              <button class="btn primary-btn">Buy Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="pictures/planter.jpg" alt="Tire Planter">
+            <div class="product-info">
+              <h3>Tire Planter</h3>
+              <p class="product-description">Colorful garden planter made from an upcycled car tire.</p>
+              <p class="product-price">₹499.00</p>
+              <div class="product-meta">
+                <span class="product-category">Garden</span>
+                <span class="product-material">Rubber</span>
+              </div>
+              <button class="btn primary-btn">Buy Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="pictures/bottle-planter.jpg" alt="bottle-planter">
+            <div class="product-info">
+              <h3>Bottle Planter</h3>
+              <p class="product-description">Unique garden planter made from recycled bottles.</p>
+              <p class="product-price">₹200.00</p>
+              <div class="product-meta">
+                <span class="product-category">Home Decor</span>
+                <span class="product-material">Glass</span>
+              </div>
+              <button class="btn primary-btn">Buy Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="pictures/A stylish upcycled bag made from repurposed cloth. The fabric is sewn together creatively, featuring patchwork or eco-friendly designs. The bag has st.webp" alt="Upcycled bag">
+            <div class="product-info">
+              <h3>Bag from Cloth</h3>
+              <p class="product-description">Stylish upcycled bag made from repurposed cloth.</p>
+              <p class="product-price">₹250.00</p>
+              <div class="product-meta">
+                <span class="product-category">Fashion & Accessories</span>
+                <span class="product-material">Fabric & Textiles</span>
+              </div>
+              <button class="btn primary-btn">Buy Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="pictures/Keepsake-Toy-Lamb-Buntys-Basket-Keepsakes-.jpg" alt="Lamb Keepsake Toy">
+            <div class="product-info">
+              <h3>Lamb Keepsake Toy</h3>
+              <p class="product-description">Unique keepsake toy made from uplcycled old clothes.</p>
+              <p class="product-price">₹150.00</p>
+              <div class="product-meta">
+                <span class="product-category">Fashion & Accessories</span>
+                <span class="product-material">Fabric & Textiles</span>
+              </div>
+              <button class="btn primary-btn">Buy Now</button>
+            </div>
+          </div>
+          <div class="product-card">
+            <img src="pictures/doormat from old cloths.webp" alt="doormat from old cloths">
+            <div class="product-info">
+              <h3>Doormat</h3>
+              <p class="product-description">Unique doormat made from uplcycled old clothes.</p>
+              <p class="product-price">₹350.00</p>
+              <div class="product-meta">
+                <span class="product-category">Home Decor</span>
+                <span class="product-material">Fabric & Textiles</span>
+              </div>
+              <button class="btn primary-btn">Buy Now</button>
+            </div> 
+          </div>
+        </div>
+      </section>
+
+      <section class="sell-section">
+        <div class="sell-content">
+          <h2>Sell Your Upcycled Creations</h2>
+          <p>Join our community of eco-conscious creators and sell your handmade upcycled products.</p>
+          <button class="btn primary-btn">Start Selling</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>TrashMorph</h3>
+          <p>Transforming waste into treasures, one item at a time.</p>
+        </div>
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/marketplace.html">Marketplace</a></li>
+            <li><a href="/community.html">Community</a></li>
+            <li><a href="/about.html">About</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Connect With Us</h3>
+          <div class="social-links">
+            <a href="#" class="social-link">Facebook</a>
+            <a href="#" class="social-link">Instagram</a>
+            <a href="#" class="social-link">Twitter</a>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>&copy; 2025 TrashMorph. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
