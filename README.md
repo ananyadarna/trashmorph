@@ -99,5 +99,6 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  Made with 💚 by <a href="https://github.com/ananyadarna">Ananya Darna</a> &amp; Vamshi Ayili
+  Made with 💚 by <a href="https://github.com/ananyadarna">Ananya Darna</a> &amp; <a href="https://github.com/vamshiayili">Vamshi Ayili</a>
+
 </div>
