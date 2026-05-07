@@ -4,7 +4,7 @@
 
 TrashMorph is a web-based platform that empowers users to upcycle waste materials into creative crafts. With object recognition, a community hub, and a marketplace, it promotes sustainable living through innovation and collaboration.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-38B2AC?style=for-the-badge)](https://your-live-link.vercel.app)
+[![Live Demo](https://img.shields.io/badge/Live-Demo-38B2AC?style=for-the-badge)](https://trashmorph.netlify.app/)
 [![GitHub](https://img.shields.io/badge/Source-Code-181717?style=for-the-badge&logo=github)](https://github.com/ananyadarna/trashmorph)
 [![MIT License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
 
